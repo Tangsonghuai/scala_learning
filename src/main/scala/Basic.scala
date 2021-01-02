@@ -53,15 +53,15 @@ object Basic {
     }
     println(To(6.6))
   }
-  class Basic(le :String,Ri : String) {
-    def greet(x: String):Unit = {
-      var y = x
-      y.toString
-      println(y)
-    }
-    println(Basic.this.greet("Hello"))
-  }
-  val up =new Basic("👈","👉")
-   println( up.greet("Man"))
-
+//  class Basic(le :String,Ri : String) {
+//    def greet(x: String):Unit = {
+//      var y = x
+//      y.toString
+//      println(y)
+//    }
+//    println(Basic.this.greet("Hello"))
+//  }
+//  val up =new Basic("👈","👉")
+//   println( up.greet("Man"))
+//
 }
